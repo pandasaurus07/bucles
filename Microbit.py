@@ -6,6 +6,6 @@ from microbit import*
 texto = "Microbit"
 i=0
 while(i<len(texto)):
-    display.show(texto[1])
-    i = 1 + 2
+    display.show(texto[i])
+    i = i + 1
     sleep(500)
